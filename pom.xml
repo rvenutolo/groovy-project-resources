@@ -23,6 +23,12 @@
             <plugin>
                 <artifactId>maven-remote-resources-plugin</artifactId>
                 <version>1.5</version>
+                <configuration>
+                    <includes>
+                        <!-- default includes are **/*.txt **/*.vm -->
+                        <include>**/*</include>
+                    </includes>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
