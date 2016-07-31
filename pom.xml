@@ -18,4 +18,20 @@
     <url>https://github.com/rvenutolo/groovy-project-resources</url>
     <inceptionYear>2016</inceptionYear>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bundle</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
